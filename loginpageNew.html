@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82bdab050c.js" crossorigin="anonymous" type="text/javascript"></script>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./web-pageNEw.css">
+</head>
+<style>	
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #212121;
+    background: #303F9F !important;
+  }
+  .user_card {
+    width: 450px;
+    min-height: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+  }
+  .form_container {
+    margin-top: 20px;
+  }
+  .input-group-text {
+    background: #f7ba5b !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+  }
+  .input_user,
+  .input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+  #messages{
+    padding: 20px 10px 20px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+</style>
+<body>
+  <div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+    <div class="user_card">
+    <div class="d-flex justify-content-center">
+    <img src="./index.png" id="logo-login" alt="logo">
+    </div>
+    <div class="d-flex justify-content-center">
+    <h3 class="font-weight-bold">Sign in</h3>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="access_dash">
+        <p>to access Dashboard</p>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center form_container">
+    <form method="POST" action="">
+    <input type="hidden" name="csrfmiddlewaretoken" value="T7dMNe5IhcPHA2RBJkTYYkXnATwVV8mLrRsfYX2vHh6wfeRDbN076vfSgZN23tjn">
+    <div class="input-group mb-3">
+    <div class="input-group-append">
+    <span class="input-group-text"><i class="fas fa-user"></i></span>
+    </div>
+    <input required type="text" name="username" placeholder="Username" class="form-control">
+    </div>
+    <div class="input-group mb-2">
+    <div class="input-group-append">
+    <span class="input-group-text"><i class="fas fa-key"></i></span>
+    </div>
+    <input required type="password" name="password" placeholder="Password" class="form-control">
+    </div>
+    <div class="d-flex text-secondary float-left links">
+    <a href="#" class="font-weight-bold">Forgot password?</a>
+    </div>
+    <div class="d-flex justify-content-center mt-5 mb-4 float-right">
+    <input class="btn btn-theme" type="submit" value="Login">
+    </div>
+    </form>
+    </div>
+    <div class="">
+    </div>
+    <div class="mt-4">
+    <div class="d-flex text-secondary justify-content-center links">
+    Don't have an account? <a href="./SignUpNew.html" class="ml-1 font-weight-bold">Sign Up</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
