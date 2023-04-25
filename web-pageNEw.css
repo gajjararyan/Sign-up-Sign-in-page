@@ -1,0 +1,278 @@
+body {
+    background-color:#f6f7ff;
+    font-size:13px;
+    font-family:montserrat;
+    font-style:normal;
+    font-weight:500;
+    color:#212121;
+    padding:40px 40px 0;
+    width: 100%;
+}
+
+ul {
+    list-style:none;
+    padding-left:0
+} 
+
+â€‹ .asteriskField {
+    display:none
+}
+
+#orders-delivered {
+    background-color:#a5d6a7
+} 
+
+#total-orders {
+    background-color:#81d4fa
+} 
+
+#orders-pending {
+    background-color:#9fa8da
+} 
+
+#orders-warning {
+    background-color:#f57082
+}
+
+.table>thead>tr {
+    vertical-align:middle;
+    text-align:center
+}
+
+.table>tbody>tr>td {
+    vertical-align:middle;
+    text-align:center 
+} 
+    
+.table>tbody>tr>th { 
+    vertical-align:middle;
+    text-align:center 
+} 
+
+.table>tbody>tr {
+    text-align:center 
+}
+
+.second-view {
+    color:#757575 
+}
+
+.btn-theme-outline {
+    border-color:#3f51b5;
+    color:#3f51b5;
+    font-weight:500;
+    box-shadow:1px 2px 4px #888
+}
+
+.btn-theme-outline:hover {
+    border-color:#3f51b5;
+    background-color:#3f51b5!important;
+    color:#fff;cursor:pointer 
+}
+
+.btn-theme-input-group {
+    background-color:#3f51b5;
+    color:#fff;
+    font-weight:500 
+}
+
+.btn-theme-input-group:hover {
+    border-color:#303f9f;
+    background-color:#303f9f!important;
+    color:#fff;
+    cursor:pointer
+}
+
+.btn-theme {
+    background-color:#3f51b5;
+    color:#fff;
+    font-weight:500;
+    box-shadow:1px 2px 4px #888 
+}
+
+.btn-theme:hover,.btn-theme:focus,.btn-theme:active {
+    border-color:#303f9f;
+    background-color:#303f9f!important;
+    color:#fff;
+    cursor:pointer 
+}
+
+.vertical-nav {
+    min-width:14rem;
+    width:14rem;
+    height: 100%;
+    top:0;
+    left:0;
+    transition:all .4s;
+    background-color:#fff!important;
+    border-right:.5px solid #e0e1ee;
+    position: fixed;
+}
+
+#logo {
+    width: 20px;
+}
+
+#logo-login {
+    width:110px;
+    margin-bottom:10%
+}
+
+a.logo {
+    text-decoration:none!important;
+    font-size:18px;
+    text-decoration-thickness:bold 
+} 
+
+.logo:hover {
+    text-decoration:none!important;
+    color:#303f9f!important
+}
+
+a {
+    text-decoration:none;
+    color:#3f51b5
+}
+
+a:hover {
+    text-decoration:none;
+    color:#303f9f 
+}
+
+a.activelink {
+    font-weight:700;
+    color:#303f9f
+}
+
+.nav-item {
+    padding-left:20px;
+    text-decoration:none;
+    color:#3f51b5;
+    vertical-align:middle;
+    border-radius:8px;
+    margin-left:10px;
+    margin-right:10px 
+}
+
+.nav-item:hover,.dropdown-item:hover {
+    background-color:#d0d3e9!important
+}
+
+.nav-item:hover a {
+    color:#303f9f!important
+}
+
+.dropdown-item {
+    color:#3f51b5;
+    border-radius: 8px;
+    margin: 0 10px 0 5px;
+    font-size: 14px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 500; 
+}
+
+.dropdown-menu-right {
+    padding:10px 15px 10px 0
+}
+
+.nav-pills {
+    color:#3f51b5!important
+}
+
+.nav-pills:hover { 
+    color:#303f9f 
+}
+
+.nav-pills .active {
+    background-color:#3f51b5!important 
+}
+
+.nav-pills .active:hover {
+    background-color:#303f9f!important;
+    color:#fff!important 
+}
+    
+.bi {
+    vertical-align:middle 
+}
+
+.separator {
+    margin:3rem 0;
+    border-bottom:1px dashed #fff 
+}
+
+.text-uppercase {
+    letter-spacing:.1em
+}
+
+.text-gray {
+    color:#1a1f36 
+}
+
+.page-content {
+    width:calc(100% - 14rem);
+    margin-left:14rem;
+    transition:all .4s
+}
+
+#sidebar.active {
+    margin-left:-14rem;
+    width:100%;
+    position:fixed;
+    height: 500px;
+    overflow-y:scroll!important;
+}
+
+#content.active {
+    width:100% 
+}
+
+@media(max-width:768px) {
+       
+    body {
+        padding:0
+    }
+    
+    #sidebarCollapse {
+        margin:10px 10px 10px 20px
+    }
+    
+    #sidebar {
+        margin-left:-14re
+    }
+    
+    #sidebar.active {
+        font-size:15px;
+        margin-left:0;
+        position:fixed;
+        overflow-x:scroll!important;
+        z-index:1000
+    }
+    
+    #content {
+        width:100%;
+        margin:0
+    }
+    
+    #content.active {
+        margin-left:13rem;
+        width:calc(100% - 14rem);
+        z-index:-1
+    }
+    
+    .secondary-text-color {
+        color:#757575
+    }
+    
+    .default-primary-color {
+        color:#3f51b5
+    }
+    
+    .nodecoration {
+        text-decoration:none!important
+    }
+}        
+.access_dash{
+    color:#757575
+}
